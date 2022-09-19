@@ -1,0 +1,84 @@
+/* styles.css */
+body{
+    background-color: grey; 
+    text-align: center;
+}
+
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    background-color: grey;
+    height: 95vh;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.FlexContainer div {
+    width: 95%;
+    height: 95%;
+    margin: 0px;
+}
+
+.FlexContainer div.login{
+    background-color: white;
+}
+
+.FlexContainer div.info{
+    background-color: darkblue;
+}
+
+.loginStyle{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px auto;
+    max-width: 450px;
+    text-align: left;
+    font-family: Calibri;
+}
+
+.loginStyle h1{
+    font-size: 2.5em;
+    line-height: 0%;
+}
+
+.loginStyle h2{
+    font-size: 1em;
+    color: gray;
+    font-weight: bold;
+}
+
+.position label{
+    font-weight: bold;
+}
+
+.position input {
+    display: block;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ddd;
+    transition: border-width 0.2s ease;
+    border-radius: 2px;
+    color: #ccc;
+}
+
+#checkBox{
+    display: flex;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+#boxButton{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#boxbutton sign{
+    background-color: black;
+}
